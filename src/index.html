@@ -1,0 +1,55 @@
+<!Doctype>
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+
+        </div>
+
+        <div class="purpleShadeOpacityOverlap">
+
+        </div>
+
+        <div class="andela">
+            <img src="img/andelaWhite.png" />
+            <p class="andelaCommunity">Andela Learning Community</p>
+            <p class="codeChallenge">#7DaysofCodeChallenge</p>
+        </div>
+
+        <div class="converter">
+            <p class="formHeader">currency converter</p>
+            <p class="convertedCurrency">
+                0.00
+            </p>
+
+
+            <form method="POST">
+                <div class="inputWrapper">
+                    <input type="text" placeholder="Enter Amount" id="amount">
+                </div>
+
+                <div class="fromTo">
+                    <div class="selectWrapper">
+                        <select id="currency1">
+                            <option>From</option>
+                        </select>
+                    </div>
+                    <img src="img/convert2.png">
+                    <div class="selectWrapper">
+                        <select id="currency2">
+                            <option>To</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="submit">
+                        <button type="button" onclick="dontReload(e)">Convert</button>
+                </div>
+                
+            </form>
+        </div>
+
+        <script src="app.js" type="text/javascript"></script>
+    </body>
+</html>

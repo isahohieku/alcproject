@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg_img.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.purpleShadeOpacityOverlap{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(203, 104, 238, 0.7), rgba(45,2,29,0.9) 80%);
+    position: absolute;
+    top: 0px;
+}
+
+.andela{
+    position: absolute;
+    width: 585px;
+    top: 35%;
+    left: 100px;
+}
+
+.andela img{
+    width: 200;
+    float: left;
+}
+
+.andelaCommunity{
+    font-family: Overpass;
+    font-size: 50px;
+    color:#eaeaea;
+    margin-top: 25px;
+    margin-left: 210px;
+    line-height: 76px;
+}
+
+.codeChallenge{
+    font-size: 40px;
+    font-family: Overpass;
+    color: #eaeaea;
+    text-align: center;
+}
+
+.converter{
+    width: 450px;
+    height: 500px;
+    background: rgba(45,9,32,0.6);
+    position: absolute;
+    top: 15%;
+    left: 776px;
+}
+
+.formHeader{
+    text-align: center;
+    font-family: "Merriweather Sans";
+    font-size: 20px;
+    color: #eaeaea;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.convertedCurrency{
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 50px;
+    color: #eaeaea;
+    margin-top: 32px;
+}
+
+input{
+    border: 0;
+    width: calc(100% - 10px);
+}
+.inputWrapper{
+    border: 0px;
+    border-bottom: 1px solid #eaeaea;
+    width: 350px;
+    margin: 40px auto;
+    padding: 5px;
+}
+
+.selectWrapper{
+    border: 0px;
+    border-bottom: 1px solid #eaeaea;
+    width: 90px;
+    margin: 40px auto;
+    padding: 5px;
+    float: left;
+}
+
+.selectWrapper:nth-child(1){
+    margin-left: 50px;
+}
+
+.fromTo{
+    height: 120px;
+}
+
+.fromTo img{
+    float: left;
+    width: 100px;
+    margin: 20px 25px 0px 25px;
+}
+
+form{
+    margin: 0px auto;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    margin:20px auto;
+}
+
+.submit{
+    width: 120px;
+    margin: 0px auto;
+}
